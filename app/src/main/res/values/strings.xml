@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WallBiz1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_message">DisplayMessage</string>
+    <string name="username">username</string>
+    <string name="createaccount">create account</string>
+    <string name="next">next</string>
+    <string name="firstname">first name</string>
+    <string name="lastname">last name</string>
+    <string name="email">email</string>
+    <string name="phone_number">phone</string>
+</resources>

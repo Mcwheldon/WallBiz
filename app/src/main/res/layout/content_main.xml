@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/paddingEnd"
+    android:paddingTop="@dimen/paddingTop"
+    android:paddingLeft="@dimen/paddingStart"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firstname"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lastname"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/text4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:inputType="text" />
+
+    <Button
+        android:background="@color/material_green_800"
+        android:id="@+id/createaccount"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:text="@string/createaccount"/>
+
+
+
+    <Button
+        android:layout_marginTop="@dimen/paddingStart"
+        android:background="@color/material_green_800"
+        android:id="@+id/next"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:onClick="sendMessage"
+        android:text="@string/next" />
+
+
+</LinearLayout>
